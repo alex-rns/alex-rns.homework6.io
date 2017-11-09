@@ -397,11 +397,12 @@ span {
   margin-bottom: 30px; }
 
 .top-footer {
-  background: #d75d0e;
-  font: 18px / 24px "RobotoRegular", sans-serif; }
+  color: #fff;
+  background: #d75d0e; }
   .top-footer li {
     margin-bottom: 6px; }
   .top-footer a {
+    font: 18px / 24px "RobotoRegular", sans-serif;
     color: #fff; }
     .top-footer a:hover {
       text-transform: uppercase; }
