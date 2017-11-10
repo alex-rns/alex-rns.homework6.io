@@ -209,6 +209,7 @@ section {
   text-align: center;
   color: #ffffff;
   height: 100vh;
+  min-height: 650px;
   overflow: hidden;
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.85)), to(transparent)), url("../../images/welcome-img.png") no-repeat 50% 50%;
   background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.85) 0%, transparent 100%), url("../../images/welcome-img.png") no-repeat 50% 50%;
@@ -434,6 +435,12 @@ span {
 @media only screen and (max-width: 767px) {
   section {
     padding: 50px 0; }
+  .welcome-section {
+    padding: 0; }
+    .welcome-section .welcome-wrapper h2 + h3 {
+      margin-bottom: 40px; }
+    .welcome-section .welcome-food {
+      margin-bottom: 15px; }
   .our-news h3 {
     margin-bottom: 50px; }
   h2 {
